@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CalcOfCustomPaymentsCLIENT/CalcOfCustomPaymentsCLIENT.iml" filepath="$PROJECT_DIR$/CalcOfCustomPaymentsCLIENT/CalcOfCustomPaymentsCLIENT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalcOfCustomPaymentsSERVER/CalcOfCustomPaymentsSERVER.iml" filepath="$PROJECT_DIR$/CalcOfCustomPaymentsSERVER/CalcOfCustomPaymentsSERVER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CourseProject.iml" filepath="$PROJECT_DIR$/.idea/CourseProject.iml" />
+    </modules>
+  </component>
+</project>

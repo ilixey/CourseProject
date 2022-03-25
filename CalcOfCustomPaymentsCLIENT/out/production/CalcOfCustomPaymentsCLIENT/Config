@@ -1,0 +1,3 @@
+public class Config{
+    protected static String darkBlue = '#36384f';
+}

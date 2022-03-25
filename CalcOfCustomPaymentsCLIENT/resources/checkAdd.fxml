@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="199.0" prefWidth="341.0" style="-fx-background-color: #36384f;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CheckAddController">
+    <children>
+        <Button layoutX="227.0" layoutY="19.0" mnemonicParsing="false" onAction="#back" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #36384f; -fx-border-color: #fc9d4d; -fx-border-radius: 5; -fx-border-width: 3;" text="Назад" textFill="#fffde0">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+        <Button fx:id="btnAccept" layoutX="227.0" layoutY="81.0" mnemonicParsing="false" onAction="#accept" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #36384f; -fx-border-color: #fc9d4d; -fx-border-radius: 5; -fx-border-width: 3;" text="Принять" textFill="#fffde0">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+      <TextField fx:id="tfPassport" layoutX="24.0" layoutY="54.0" prefHeight="26.0" prefWidth="138.0" promptText="№ паспорта" style="-fx-background-color: #fffde0; -fx-border-radius: 2; -fx-border-width: 3; -fx-border-color: #fc9d4d;">
+         <font>
+            <Font name="Arial Black" size="10.0" />
+         </font></TextField>
+      <Label layoutX="14.0" layoutY="13.0" text="Добавление чека" textFill="#fffde0">
+         <font>
+            <Font name="Arial Black" size="16.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="chbType" disable="true" layoutX="25.0" layoutY="111.0" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #36384f; -fx-border-color: #fc9d4d; -fx-border-radius: 5; -fx-border-width: 3;" />
+      <TextField fx:id="tfCount" layoutX="99.0" layoutY="113.0" prefHeight="26.0" prefWidth="62.0" promptText="Кол-во" style="-fx-background-color: #fffde0; -fx-border-radius: 2; -fx-border-width: 3; -fx-border-color: #fc9d4d;">
+         <font>
+            <Font name="Arial Black" size="10.0" />
+         </font></TextField>
+      <Button fx:id="btnAdd" disable="true" layoutX="227.0" layoutY="149.0" mnemonicParsing="false" onAction="#addOrder" prefHeight="36.0" prefWidth="99.0" style="-fx-background-color: #36384f; -fx-border-color: #fc9d4d; -fx-border-radius: 5; -fx-border-width: 3;" text="Добавить" textFill="#fffde0">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Button>
+      <Label layoutX="24.0" layoutY="89.0" text="Тип" textFill="#fffde0">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></Label>
+      <RadioButton fx:id="speedBut" layoutX="24.0" layoutY="159.0" mnemonicParsing="false" text="Быстрое оформление" textFill="WHITE" />
+    </children>
+</AnchorPane>
